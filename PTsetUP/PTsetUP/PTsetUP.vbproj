@@ -72,11 +72,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmMain.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Class1.vb">
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.vb">
-      <DependentUpon>frmMain.vb</DependentUpon>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -96,8 +98,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.vb</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -117,6 +119,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2959838-512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
