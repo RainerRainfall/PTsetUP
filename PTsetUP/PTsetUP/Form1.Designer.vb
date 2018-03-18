@@ -26,6 +26,7 @@ Partial Class Form1
         Me.ElegantThemeContainer1 = New PTsetUP.ElegantThemeContainer()
         Me.ElegantThemeTabControlVertical1 = New PTsetUP.ElegantThemeTabControlVertical()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.ElegantRadioButton2 = New PTsetUP.ElegantRadioButton()
         Me.ElegantRadioButton1 = New PTsetUP.ElegantRadioButton()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
@@ -87,6 +88,7 @@ Partial Class Form1
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.TabPage1.Controls.Add(Me.ElegantRadioButton2)
         Me.TabPage1.Controls.Add(Me.ElegantRadioButton1)
         Me.TabPage1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabPage1.Location = New System.Drawing.Point(99, 4)
@@ -96,6 +98,21 @@ Partial Class Form1
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Market"
         '
+        'ElegantRadioButton2
+        '
+        Me.ElegantRadioButton2.BaseColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ElegantRadioButton2.BorderColour = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer))
+        Me.ElegantRadioButton2.Checked = False
+        Me.ElegantRadioButton2.CheckedColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantRadioButton2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ElegantRadioButton2.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.ElegantRadioButton2.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.ElegantRadioButton2.Location = New System.Drawing.Point(6, 34)
+        Me.ElegantRadioButton2.Name = "ElegantRadioButton2"
+        Me.ElegantRadioButton2.Size = New System.Drawing.Size(355, 22)
+        Me.ElegantRadioButton2.TabIndex = 1
+        Me.ElegantRadioButton2.Text = "ElegantRadioButton2"
+        '
         'ElegantRadioButton1
         '
         Me.ElegantRadioButton1.BaseColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -103,13 +120,12 @@ Partial Class Form1
         Me.ElegantRadioButton1.Checked = False
         Me.ElegantRadioButton1.CheckedColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
         Me.ElegantRadioButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ElegantRadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ElegantRadioButton1.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         Me.ElegantRadioButton1.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.ElegantRadioButton1.Location = New System.Drawing.Point(36, 21)
+        Me.ElegantRadioButton1.Location = New System.Drawing.Point(6, 6)
         Me.ElegantRadioButton1.Name = "ElegantRadioButton1"
-        Me.ElegantRadioButton1.Size = New System.Drawing.Size(271, 22)
-        Me.ElegantRadioButton1.TabIndex = 3
+        Me.ElegantRadioButton1.Size = New System.Drawing.Size(241, 22)
+        Me.ElegantRadioButton1.TabIndex = 0
         Me.ElegantRadioButton1.Text = "ElegantRadioButton1"
         '
         'TabPage2
@@ -176,8 +192,9 @@ Partial Class Form1
     Friend WithEvents ElegantThemeTabControlVertical1 As ElegantThemeTabControlVertical
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TabPage2 As TabPage
-    Friend WithEvents ElegantRadioButton1 As ElegantRadioButton
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents TabPage4 As TabPage
     Friend WithEvents TabPage5 As TabPage
+    Friend WithEvents ElegantRadioButton2 As ElegantRadioButton
+    Friend WithEvents ElegantRadioButton1 As ElegantRadioButton
 End Class
