@@ -26,6 +26,12 @@ Partial Class Form1
         Me.ElegantThemeContainer1 = New PTsetUP.ElegantThemeContainer()
         Me.ElegantThemeTabControlVertical1 = New PTsetUP.ElegantThemeTabControlVertical()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.ElegantThemeGroupBox2 = New PTsetUP.ElegantThemeGroupBox()
+        Me.ElegantRadioButton4 = New PTsetUP.ElegantRadioButton()
+        Me.ElegantRadioButton5 = New PTsetUP.ElegantRadioButton()
+        Me.ElegantRadioButton6 = New PTsetUP.ElegantRadioButton()
+        Me.ElegantThemeGroupBox1 = New PTsetUP.ElegantThemeGroupBox()
+        Me.ElegantRadioButton3 = New PTsetUP.ElegantRadioButton()
         Me.ElegantRadioButton2 = New PTsetUP.ElegantRadioButton()
         Me.ElegantRadioButton1 = New PTsetUP.ElegantRadioButton()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
@@ -35,6 +41,8 @@ Partial Class Form1
         Me.ElegantThemeContainer1.SuspendLayout()
         Me.ElegantThemeTabControlVertical1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        Me.ElegantThemeGroupBox2.SuspendLayout()
+        Me.ElegantThemeGroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ElegantThemeContainer1
@@ -64,6 +72,8 @@ Partial Class Form1
         'ElegantThemeTabControlVertical1
         '
         Me.ElegantThemeTabControlVertical1.Alignment = System.Windows.Forms.TabAlignment.Left
+        Me.ElegantThemeTabControlVertical1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ElegantThemeTabControlVertical1.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
         Me.ElegantThemeTabControlVertical1.Controls.Add(Me.TabPage1)
         Me.ElegantThemeTabControlVertical1.Controls.Add(Me.TabPage2)
@@ -88,30 +98,135 @@ Partial Class Form1
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
-        Me.TabPage1.Controls.Add(Me.ElegantRadioButton2)
-        Me.TabPage1.Controls.Add(Me.ElegantRadioButton1)
+        Me.TabPage1.Controls.Add(Me.ElegantThemeGroupBox2)
+        Me.TabPage1.Controls.Add(Me.ElegantThemeGroupBox1)
         Me.TabPage1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabPage1.Location = New System.Drawing.Point(99, 4)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(582, 353)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "Market"
+        Me.TabPage1.Text = "Global"
+        '
+        'ElegantThemeGroupBox2
+        '
+        Me.ElegantThemeGroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeGroupBox2.BorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
+        Me.ElegantThemeGroupBox2.Controls.Add(Me.ElegantRadioButton4)
+        Me.ElegantThemeGroupBox2.Controls.Add(Me.ElegantRadioButton5)
+        Me.ElegantThemeGroupBox2.Controls.Add(Me.ElegantRadioButton6)
+        Me.ElegantThemeGroupBox2.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.ElegantThemeGroupBox2.HeaderColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ElegantThemeGroupBox2.Location = New System.Drawing.Point(6, 71)
+        Me.ElegantThemeGroupBox2.MainColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeGroupBox2.Name = "ElegantThemeGroupBox2"
+        Me.ElegantThemeGroupBox2.Size = New System.Drawing.Size(570, 59)
+        Me.ElegantThemeGroupBox2.TabIndex = 3
+        Me.ElegantThemeGroupBox2.Text = "Höhe des ersten Kaufs  (ALL_max_cost = )"
+        Me.ElegantThemeGroupBox2.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        '
+        'ElegantRadioButton4
+        '
+        Me.ElegantRadioButton4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantRadioButton4.BaseColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ElegantRadioButton4.BorderColour = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer))
+        Me.ElegantRadioButton4.Checked = False
+        Me.ElegantRadioButton4.CheckedColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantRadioButton4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ElegantRadioButton4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ElegantRadioButton4.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.ElegantRadioButton4.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.ElegantRadioButton4.Location = New System.Drawing.Point(496, 29)
+        Me.ElegantRadioButton4.Name = "ElegantRadioButton4"
+        Me.ElegantRadioButton4.Size = New System.Drawing.Size(71, 22)
+        Me.ElegantRadioButton4.TabIndex = 2
+        Me.ElegantRadioButton4.Text = "USDT"
+        '
+        'ElegantRadioButton5
+        '
+        Me.ElegantRadioButton5.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.ElegantRadioButton5.BaseColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ElegantRadioButton5.BorderColour = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer))
+        Me.ElegantRadioButton5.Checked = False
+        Me.ElegantRadioButton5.CheckedColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantRadioButton5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ElegantRadioButton5.Font = New System.Drawing.Font("Segoe UI", 9.75!)
+        Me.ElegantRadioButton5.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.ElegantRadioButton5.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.ElegantRadioButton5.Location = New System.Drawing.Point(228, 29)
+        Me.ElegantRadioButton5.Name = "ElegantRadioButton5"
+        Me.ElegantRadioButton5.Size = New System.Drawing.Size(64, 22)
+        Me.ElegantRadioButton5.TabIndex = 1
+        Me.ElegantRadioButton5.Text = "ETH"
+        '
+        'ElegantRadioButton6
+        '
+        Me.ElegantRadioButton6.BaseColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ElegantRadioButton6.BorderColour = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer))
+        Me.ElegantRadioButton6.Checked = False
+        Me.ElegantRadioButton6.CheckedColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantRadioButton6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ElegantRadioButton6.Font = New System.Drawing.Font("Segoe UI", 9.75!)
+        Me.ElegantRadioButton6.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.ElegantRadioButton6.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.ElegantRadioButton6.Location = New System.Drawing.Point(3, 29)
+        Me.ElegantRadioButton6.Name = "ElegantRadioButton6"
+        Me.ElegantRadioButton6.Size = New System.Drawing.Size(59, 22)
+        Me.ElegantRadioButton6.TabIndex = 0
+        Me.ElegantRadioButton6.Text = "BTC"
+        '
+        'ElegantThemeGroupBox1
+        '
+        Me.ElegantThemeGroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeGroupBox1.BorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
+        Me.ElegantThemeGroupBox1.Controls.Add(Me.ElegantRadioButton3)
+        Me.ElegantThemeGroupBox1.Controls.Add(Me.ElegantRadioButton2)
+        Me.ElegantThemeGroupBox1.Controls.Add(Me.ElegantRadioButton1)
+        Me.ElegantThemeGroupBox1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.ElegantThemeGroupBox1.HeaderColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ElegantThemeGroupBox1.Location = New System.Drawing.Point(6, 6)
+        Me.ElegantThemeGroupBox1.MainColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeGroupBox1.Name = "ElegantThemeGroupBox1"
+        Me.ElegantThemeGroupBox1.Size = New System.Drawing.Size(570, 59)
+        Me.ElegantThemeGroupBox1.TabIndex = 2
+        Me.ElegantThemeGroupBox1.Text = "Base Coin (MARKET = )"
+        Me.ElegantThemeGroupBox1.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        '
+        'ElegantRadioButton3
+        '
+        Me.ElegantRadioButton3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantRadioButton3.BaseColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ElegantRadioButton3.BorderColour = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer))
+        Me.ElegantRadioButton3.Checked = False
+        Me.ElegantRadioButton3.CheckedColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantRadioButton3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ElegantRadioButton3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ElegantRadioButton3.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.ElegantRadioButton3.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.ElegantRadioButton3.Location = New System.Drawing.Point(496, 29)
+        Me.ElegantRadioButton3.Name = "ElegantRadioButton3"
+        Me.ElegantRadioButton3.Size = New System.Drawing.Size(71, 22)
+        Me.ElegantRadioButton3.TabIndex = 2
+        Me.ElegantRadioButton3.Text = "USDT"
         '
         'ElegantRadioButton2
         '
+        Me.ElegantRadioButton2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.ElegantRadioButton2.BaseColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ElegantRadioButton2.BorderColour = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(210, Byte), Integer))
         Me.ElegantRadioButton2.Checked = False
         Me.ElegantRadioButton2.CheckedColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
         Me.ElegantRadioButton2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ElegantRadioButton2.Font = New System.Drawing.Font("Segoe UI", 9.75!)
         Me.ElegantRadioButton2.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         Me.ElegantRadioButton2.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.ElegantRadioButton2.Location = New System.Drawing.Point(6, 34)
+        Me.ElegantRadioButton2.Location = New System.Drawing.Point(228, 29)
         Me.ElegantRadioButton2.Name = "ElegantRadioButton2"
-        Me.ElegantRadioButton2.Size = New System.Drawing.Size(355, 22)
+        Me.ElegantRadioButton2.Size = New System.Drawing.Size(64, 22)
         Me.ElegantRadioButton2.TabIndex = 1
-        Me.ElegantRadioButton2.Text = "ElegantRadioButton2"
+        Me.ElegantRadioButton2.Text = "ETH"
         '
         'ElegantRadioButton1
         '
@@ -120,13 +235,14 @@ Partial Class Form1
         Me.ElegantRadioButton1.Checked = False
         Me.ElegantRadioButton1.CheckedColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
         Me.ElegantRadioButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ElegantRadioButton1.Font = New System.Drawing.Font("Segoe UI", 9.75!)
         Me.ElegantRadioButton1.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         Me.ElegantRadioButton1.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.ElegantRadioButton1.Location = New System.Drawing.Point(6, 6)
+        Me.ElegantRadioButton1.Location = New System.Drawing.Point(3, 29)
         Me.ElegantRadioButton1.Name = "ElegantRadioButton1"
-        Me.ElegantRadioButton1.Size = New System.Drawing.Size(241, 22)
+        Me.ElegantRadioButton1.Size = New System.Drawing.Size(59, 22)
         Me.ElegantRadioButton1.TabIndex = 0
-        Me.ElegantRadioButton1.Text = "ElegantRadioButton1"
+        Me.ElegantRadioButton1.Text = "BTC"
         '
         'TabPage2
         '
@@ -136,7 +252,7 @@ Partial Class Form1
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage2.Size = New System.Drawing.Size(582, 353)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Global"
+        Me.TabPage2.Text = "Safety Settings"
         '
         'TabPage3
         '
@@ -184,6 +300,8 @@ Partial Class Form1
         Me.ElegantThemeContainer1.ResumeLayout(False)
         Me.ElegantThemeTabControlVertical1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
+        Me.ElegantThemeGroupBox2.ResumeLayout(False)
+        Me.ElegantThemeGroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -197,4 +315,10 @@ Partial Class Form1
     Friend WithEvents TabPage5 As TabPage
     Friend WithEvents ElegantRadioButton2 As ElegantRadioButton
     Friend WithEvents ElegantRadioButton1 As ElegantRadioButton
+    Friend WithEvents ElegantThemeGroupBox1 As ElegantThemeGroupBox
+    Friend WithEvents ElegantRadioButton3 As ElegantRadioButton
+    Friend WithEvents ElegantThemeGroupBox2 As ElegantThemeGroupBox
+    Friend WithEvents ElegantRadioButton4 As ElegantRadioButton
+    Friend WithEvents ElegantRadioButton5 As ElegantRadioButton
+    Friend WithEvents ElegantRadioButton6 As ElegantRadioButton
 End Class
