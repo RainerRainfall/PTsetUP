@@ -35,6 +35,7 @@ Partial Class Form1
         Me.ElegantRadioButton2 = New PTsetUP.ElegantRadioButton()
         Me.ElegantRadioButton1 = New PTsetUP.ElegantRadioButton()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.ElegantThemeGroupBox3 = New PTsetUP.ElegantThemeGroupBox()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
@@ -43,6 +44,7 @@ Partial Class Form1
         Me.TabPage1.SuspendLayout()
         Me.ElegantThemeGroupBox2.SuspendLayout()
         Me.ElegantThemeGroupBox1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
         '
         'ElegantThemeContainer1
@@ -97,7 +99,7 @@ Partial Class Form1
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TabPage1.Controls.Add(Me.ElegantThemeGroupBox2)
         Me.TabPage1.Controls.Add(Me.ElegantThemeGroupBox1)
         Me.TabPage1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -246,13 +248,29 @@ Partial Class Form1
         '
         'TabPage2
         '
-        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.TabPage2.Controls.Add(Me.ElegantThemeGroupBox3)
         Me.TabPage2.Location = New System.Drawing.Point(99, 4)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage2.Size = New System.Drawing.Size(582, 353)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Safety Settings"
+        '
+        'ElegantThemeGroupBox3
+        '
+        Me.ElegantThemeGroupBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeGroupBox3.BorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
+        Me.ElegantThemeGroupBox3.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.ElegantThemeGroupBox3.HeaderColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ElegantThemeGroupBox3.Location = New System.Drawing.Point(6, 6)
+        Me.ElegantThemeGroupBox3.MainColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeGroupBox3.Name = "ElegantThemeGroupBox3"
+        Me.ElegantThemeGroupBox3.Size = New System.Drawing.Size(570, 179)
+        Me.ElegantThemeGroupBox3.TabIndex = 4
+        Me.ElegantThemeGroupBox3.Text = "Sell only mode"
+        Me.ElegantThemeGroupBox3.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         '
         'TabPage3
         '
@@ -302,6 +320,7 @@ Partial Class Form1
         Me.TabPage1.ResumeLayout(False)
         Me.ElegantThemeGroupBox2.ResumeLayout(False)
         Me.ElegantThemeGroupBox1.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -321,4 +340,5 @@ Partial Class Form1
     Friend WithEvents ElegantRadioButton4 As ElegantRadioButton
     Friend WithEvents ElegantRadioButton5 As ElegantRadioButton
     Friend WithEvents ElegantRadioButton6 As ElegantRadioButton
+    Friend WithEvents ElegantThemeGroupBox3 As ElegantThemeGroupBox
 End Class
