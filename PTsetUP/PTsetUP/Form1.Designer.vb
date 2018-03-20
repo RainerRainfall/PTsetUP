@@ -24,6 +24,9 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.ElegantThemeContainer1 = New PTsetUP.ElegantThemeContainer()
+        Me.ElegantThemeButton5 = New PTsetUP.ElegantThemeButton()
+        Me.ElegantThemeButton4 = New PTsetUP.ElegantThemeButton()
+        Me.ElegantThemeLabel1 = New PTsetUP.ElegantThemeLabel()
         Me.ElegantThemeTabControlVertical1 = New PTsetUP.ElegantThemeTabControlVertical()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.ElegantThemeGroupBox2 = New PTsetUP.ElegantThemeGroupBox()
@@ -39,12 +42,25 @@ Partial Class Form1
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.ElegantThemeGroupBox6 = New PTsetUP.ElegantThemeGroupBox()
+        Me.ElegantThemeButton3 = New PTsetUP.ElegantThemeButton()
+        Me.ElegantThemeTextBox3 = New PTsetUP.ElegantThemeTextBox()
+        Me.ElegantThemeGroupBox5 = New PTsetUP.ElegantThemeGroupBox()
+        Me.ElegantThemeButton2 = New PTsetUP.ElegantThemeButton()
+        Me.ElegantThemeTextBox2 = New PTsetUP.ElegantThemeTextBox()
+        Me.ElegantThemeGroupBox4 = New PTsetUP.ElegantThemeGroupBox()
+        Me.ElegantThemeButton1 = New PTsetUP.ElegantThemeButton()
+        Me.ElegantThemeTextBox1 = New PTsetUP.ElegantThemeTextBox()
         Me.ElegantThemeContainer1.SuspendLayout()
         Me.ElegantThemeTabControlVertical1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.ElegantThemeGroupBox2.SuspendLayout()
         Me.ElegantThemeGroupBox1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
+        Me.TabPage5.SuspendLayout()
+        Me.ElegantThemeGroupBox6.SuspendLayout()
+        Me.ElegantThemeGroupBox5.SuspendLayout()
+        Me.ElegantThemeGroupBox4.SuspendLayout()
         Me.SuspendLayout()
         '
         'ElegantThemeContainer1
@@ -52,12 +68,15 @@ Partial Class Form1
         Me.ElegantThemeContainer1.AllowClose = True
         Me.ElegantThemeContainer1.AllowMaximize = True
         Me.ElegantThemeContainer1.AllowMinimize = True
-        Me.ElegantThemeContainer1.BackColor = System.Drawing.Color.FromArgb(CType(CType(250, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(250, Byte), Integer))
+        Me.ElegantThemeContainer1.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.ElegantThemeContainer1.BaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.ElegantThemeContainer1.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
         Me.ElegantThemeContainer1.ControlBaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.ElegantThemeContainer1.ControlBoxButtonSplitColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
         Me.ElegantThemeContainer1.ControlBoxColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
+        Me.ElegantThemeContainer1.Controls.Add(Me.ElegantThemeButton5)
+        Me.ElegantThemeContainer1.Controls.Add(Me.ElegantThemeButton4)
+        Me.ElegantThemeContainer1.Controls.Add(Me.ElegantThemeLabel1)
         Me.ElegantThemeContainer1.Controls.Add(Me.ElegantThemeTabControlVertical1)
         Me.ElegantThemeContainer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ElegantThemeContainer1.Font = New System.Drawing.Font("Calibri", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -70,6 +89,47 @@ Partial Class Form1
         Me.ElegantThemeContainer1.Text = "ProfitTrailer set UP"
         Me.ElegantThemeContainer1.TopStripBorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
         Me.ElegantThemeContainer1.TopStripColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        '
+        'ElegantThemeButton5
+        '
+        Me.ElegantThemeButton5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeButton5.BackColor = System.Drawing.Color.Transparent
+        Me.ElegantThemeButton5.BaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeButton5.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantThemeButton5.Location = New System.Drawing.Point(493, 374)
+        Me.ElegantThemeButton5.Name = "ElegantThemeButton5"
+        Me.ElegantThemeButton5.PressedTextColour = System.Drawing.Color.White
+        Me.ElegantThemeButton5.Size = New System.Drawing.Size(99, 27)
+        Me.ElegantThemeButton5.TabIndex = 9
+        Me.ElegantThemeButton5.Text = "Read Settings"
+        Me.ElegantThemeButton5.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        '
+        'ElegantThemeButton4
+        '
+        Me.ElegantThemeButton4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeButton4.BackColor = System.Drawing.Color.Transparent
+        Me.ElegantThemeButton4.BaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeButton4.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantThemeButton4.Location = New System.Drawing.Point(598, 374)
+        Me.ElegantThemeButton4.Name = "ElegantThemeButton4"
+        Me.ElegantThemeButton4.PressedTextColour = System.Drawing.Color.White
+        Me.ElegantThemeButton4.Size = New System.Drawing.Size(99, 27)
+        Me.ElegantThemeButton4.TabIndex = 8
+        Me.ElegantThemeButton4.Text = "Write Settings"
+        Me.ElegantThemeButton4.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        '
+        'ElegantThemeLabel1
+        '
+        Me.ElegantThemeLabel1.AutoSize = True
+        Me.ElegantThemeLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.ElegantThemeLabel1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.ElegantThemeLabel1.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.ElegantThemeLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.ElegantThemeLabel1.Location = New System.Drawing.Point(9, 381)
+        Me.ElegantThemeLabel1.Name = "ElegantThemeLabel1"
+        Me.ElegantThemeLabel1.Size = New System.Drawing.Size(90, 15)
+        Me.ElegantThemeLabel1.TabIndex = 1
+        Me.ElegantThemeLabel1.Text = "Path not found!"
         '
         'ElegantThemeTabControlVertical1
         '
@@ -92,21 +152,21 @@ Partial Class Form1
         Me.ElegantThemeTabControlVertical1.NormalColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.ElegantThemeTabControlVertical1.PressedTabColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.ElegantThemeTabControlVertical1.SelectedIndex = 0
-        Me.ElegantThemeTabControlVertical1.Size = New System.Drawing.Size(685, 361)
+        Me.ElegantThemeTabControlVertical1.Size = New System.Drawing.Size(694, 327)
         Me.ElegantThemeTabControlVertical1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
         Me.ElegantThemeTabControlVertical1.TabIndex = 0
         Me.ElegantThemeTabControlVertical1.TextColour = System.Drawing.Color.FromArgb(CType(CType(152, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(160, Byte), Integer))
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.TabPage1.Controls.Add(Me.ElegantThemeGroupBox2)
         Me.TabPage1.Controls.Add(Me.ElegantThemeGroupBox1)
         Me.TabPage1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabPage1.Location = New System.Drawing.Point(99, 4)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(582, 353)
+        Me.TabPage1.Size = New System.Drawing.Size(591, 319)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Global"
         '
@@ -123,7 +183,7 @@ Partial Class Form1
         Me.ElegantThemeGroupBox2.Location = New System.Drawing.Point(6, 71)
         Me.ElegantThemeGroupBox2.MainColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.ElegantThemeGroupBox2.Name = "ElegantThemeGroupBox2"
-        Me.ElegantThemeGroupBox2.Size = New System.Drawing.Size(570, 59)
+        Me.ElegantThemeGroupBox2.Size = New System.Drawing.Size(567, 59)
         Me.ElegantThemeGroupBox2.TabIndex = 3
         Me.ElegantThemeGroupBox2.Text = "Höhe des ersten Kaufs  (ALL_max_cost = )"
         Me.ElegantThemeGroupBox2.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
@@ -139,7 +199,7 @@ Partial Class Form1
         Me.ElegantRadioButton4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ElegantRadioButton4.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         Me.ElegantRadioButton4.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.ElegantRadioButton4.Location = New System.Drawing.Point(496, 29)
+        Me.ElegantRadioButton4.Location = New System.Drawing.Point(493, 29)
         Me.ElegantRadioButton4.Name = "ElegantRadioButton4"
         Me.ElegantRadioButton4.Size = New System.Drawing.Size(71, 22)
         Me.ElegantRadioButton4.TabIndex = 2
@@ -156,7 +216,7 @@ Partial Class Form1
         Me.ElegantRadioButton5.Font = New System.Drawing.Font("Segoe UI", 9.75!)
         Me.ElegantRadioButton5.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         Me.ElegantRadioButton5.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.ElegantRadioButton5.Location = New System.Drawing.Point(228, 29)
+        Me.ElegantRadioButton5.Location = New System.Drawing.Point(226, 29)
         Me.ElegantRadioButton5.Name = "ElegantRadioButton5"
         Me.ElegantRadioButton5.Size = New System.Drawing.Size(64, 22)
         Me.ElegantRadioButton5.TabIndex = 1
@@ -191,7 +251,7 @@ Partial Class Form1
         Me.ElegantThemeGroupBox1.Location = New System.Drawing.Point(6, 6)
         Me.ElegantThemeGroupBox1.MainColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.ElegantThemeGroupBox1.Name = "ElegantThemeGroupBox1"
-        Me.ElegantThemeGroupBox1.Size = New System.Drawing.Size(570, 59)
+        Me.ElegantThemeGroupBox1.Size = New System.Drawing.Size(567, 59)
         Me.ElegantThemeGroupBox1.TabIndex = 2
         Me.ElegantThemeGroupBox1.Text = "Base Coin (MARKET = )"
         Me.ElegantThemeGroupBox1.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
@@ -207,7 +267,7 @@ Partial Class Form1
         Me.ElegantRadioButton3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ElegantRadioButton3.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         Me.ElegantRadioButton3.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.ElegantRadioButton3.Location = New System.Drawing.Point(496, 29)
+        Me.ElegantRadioButton3.Location = New System.Drawing.Point(493, 29)
         Me.ElegantRadioButton3.Name = "ElegantRadioButton3"
         Me.ElegantRadioButton3.Size = New System.Drawing.Size(71, 22)
         Me.ElegantRadioButton3.TabIndex = 2
@@ -224,7 +284,7 @@ Partial Class Form1
         Me.ElegantRadioButton2.Font = New System.Drawing.Font("Segoe UI", 9.75!)
         Me.ElegantRadioButton2.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         Me.ElegantRadioButton2.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.ElegantRadioButton2.Location = New System.Drawing.Point(228, 29)
+        Me.ElegantRadioButton2.Location = New System.Drawing.Point(226, 29)
         Me.ElegantRadioButton2.Name = "ElegantRadioButton2"
         Me.ElegantRadioButton2.Size = New System.Drawing.Size(64, 22)
         Me.ElegantRadioButton2.TabIndex = 1
@@ -248,12 +308,12 @@ Partial Class Form1
         '
         'TabPage2
         '
-        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TabPage2.Controls.Add(Me.ElegantThemeGroupBox3)
         Me.TabPage2.Location = New System.Drawing.Point(99, 4)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(582, 353)
+        Me.TabPage2.Size = New System.Drawing.Size(591, 319)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Safety Settings"
         '
@@ -267,7 +327,7 @@ Partial Class Form1
         Me.ElegantThemeGroupBox3.Location = New System.Drawing.Point(6, 6)
         Me.ElegantThemeGroupBox3.MainColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.ElegantThemeGroupBox3.Name = "ElegantThemeGroupBox3"
-        Me.ElegantThemeGroupBox3.Size = New System.Drawing.Size(570, 179)
+        Me.ElegantThemeGroupBox3.Size = New System.Drawing.Size(567, 179)
         Me.ElegantThemeGroupBox3.TabIndex = 4
         Me.ElegantThemeGroupBox3.Text = "Sell only mode"
         Me.ElegantThemeGroupBox3.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
@@ -278,7 +338,7 @@ Partial Class Form1
         Me.TabPage3.Location = New System.Drawing.Point(99, 4)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(582, 353)
+        Me.TabPage3.Size = New System.Drawing.Size(591, 319)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "TabPage3"
         '
@@ -288,19 +348,181 @@ Partial Class Form1
         Me.TabPage4.Location = New System.Drawing.Point(99, 4)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(582, 353)
+        Me.TabPage4.Size = New System.Drawing.Size(591, 319)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "TabPage4"
         '
         'TabPage5
         '
         Me.TabPage5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.TabPage5.Controls.Add(Me.ElegantThemeGroupBox6)
+        Me.TabPage5.Controls.Add(Me.ElegantThemeGroupBox5)
+        Me.TabPage5.Controls.Add(Me.ElegantThemeGroupBox4)
         Me.TabPage5.Location = New System.Drawing.Point(99, 4)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(582, 353)
+        Me.TabPage5.Size = New System.Drawing.Size(591, 319)
         Me.TabPage5.TabIndex = 4
-        Me.TabPage5.Text = "TabPage5"
+        Me.TabPage5.Text = "PTsetUP settings"
+        '
+        'ElegantThemeGroupBox6
+        '
+        Me.ElegantThemeGroupBox6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeGroupBox6.BorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
+        Me.ElegantThemeGroupBox6.Controls.Add(Me.ElegantThemeButton3)
+        Me.ElegantThemeGroupBox6.Controls.Add(Me.ElegantThemeTextBox3)
+        Me.ElegantThemeGroupBox6.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.ElegantThemeGroupBox6.HeaderColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ElegantThemeGroupBox6.Location = New System.Drawing.Point(6, 227)
+        Me.ElegantThemeGroupBox6.MainColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeGroupBox6.Name = "ElegantThemeGroupBox6"
+        Me.ElegantThemeGroupBox6.Size = New System.Drawing.Size(579, 89)
+        Me.ElegantThemeGroupBox6.TabIndex = 7
+        Me.ElegantThemeGroupBox6.Text = "Log to TXT"
+        Me.ElegantThemeGroupBox6.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        '
+        'ElegantThemeButton3
+        '
+        Me.ElegantThemeButton3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeButton3.BackColor = System.Drawing.Color.Transparent
+        Me.ElegantThemeButton3.BaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeButton3.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantThemeButton3.Location = New System.Drawing.Point(471, 39)
+        Me.ElegantThemeButton3.Name = "ElegantThemeButton3"
+        Me.ElegantThemeButton3.PressedTextColour = System.Drawing.Color.White
+        Me.ElegantThemeButton3.Size = New System.Drawing.Size(99, 27)
+        Me.ElegantThemeButton3.TabIndex = 2
+        Me.ElegantThemeButton3.Text = "Durchsuchen"
+        Me.ElegantThemeButton3.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        '
+        'ElegantThemeTextBox3
+        '
+        Me.ElegantThemeTextBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeTextBox3.BackColor = System.Drawing.Color.Transparent
+        Me.ElegantThemeTextBox3.BaseColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ElegantThemeTextBox3.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantThemeTextBox3.LeftPolygonColour = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(249, Byte), Integer))
+        Me.ElegantThemeTextBox3.LineColour = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
+        Me.ElegantThemeTextBox3.Location = New System.Drawing.Point(11, 39)
+        Me.ElegantThemeTextBox3.MaxLength = 32767
+        Me.ElegantThemeTextBox3.Multiline = False
+        Me.ElegantThemeTextBox3.Name = "ElegantThemeTextBox3"
+        Me.ElegantThemeTextBox3.Picture = PTsetUP.ElegantThemeTextBox.Pictures.None
+        Me.ElegantThemeTextBox3.ReadOnly = False
+        Me.ElegantThemeTextBox3.Size = New System.Drawing.Size(454, 27)
+        Me.ElegantThemeTextBox3.TabIndex = 1
+        Me.ElegantThemeTextBox3.Text = "Bitte Pfad eintragen"
+        Me.ElegantThemeTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.ElegantThemeTextBox3.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.ElegantThemeTextBox3.UseSystemPasswordChar = False
+        '
+        'ElegantThemeGroupBox5
+        '
+        Me.ElegantThemeGroupBox5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeGroupBox5.BorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
+        Me.ElegantThemeGroupBox5.Controls.Add(Me.ElegantThemeButton2)
+        Me.ElegantThemeGroupBox5.Controls.Add(Me.ElegantThemeTextBox2)
+        Me.ElegantThemeGroupBox5.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.ElegantThemeGroupBox5.HeaderColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ElegantThemeGroupBox5.Location = New System.Drawing.Point(6, 116)
+        Me.ElegantThemeGroupBox5.MainColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeGroupBox5.Name = "ElegantThemeGroupBox5"
+        Me.ElegantThemeGroupBox5.Size = New System.Drawing.Size(579, 89)
+        Me.ElegantThemeGroupBox5.TabIndex = 6
+        Me.ElegantThemeGroupBox5.Text = "Backup path"
+        Me.ElegantThemeGroupBox5.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        '
+        'ElegantThemeButton2
+        '
+        Me.ElegantThemeButton2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeButton2.BackColor = System.Drawing.Color.Transparent
+        Me.ElegantThemeButton2.BaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeButton2.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantThemeButton2.Location = New System.Drawing.Point(471, 39)
+        Me.ElegantThemeButton2.Name = "ElegantThemeButton2"
+        Me.ElegantThemeButton2.PressedTextColour = System.Drawing.Color.White
+        Me.ElegantThemeButton2.Size = New System.Drawing.Size(99, 27)
+        Me.ElegantThemeButton2.TabIndex = 2
+        Me.ElegantThemeButton2.Text = "Durchsuchen"
+        Me.ElegantThemeButton2.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        '
+        'ElegantThemeTextBox2
+        '
+        Me.ElegantThemeTextBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeTextBox2.BackColor = System.Drawing.Color.Transparent
+        Me.ElegantThemeTextBox2.BaseColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ElegantThemeTextBox2.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantThemeTextBox2.LeftPolygonColour = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(249, Byte), Integer))
+        Me.ElegantThemeTextBox2.LineColour = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
+        Me.ElegantThemeTextBox2.Location = New System.Drawing.Point(11, 39)
+        Me.ElegantThemeTextBox2.MaxLength = 32767
+        Me.ElegantThemeTextBox2.Multiline = False
+        Me.ElegantThemeTextBox2.Name = "ElegantThemeTextBox2"
+        Me.ElegantThemeTextBox2.Picture = PTsetUP.ElegantThemeTextBox.Pictures.None
+        Me.ElegantThemeTextBox2.ReadOnly = False
+        Me.ElegantThemeTextBox2.Size = New System.Drawing.Size(454, 27)
+        Me.ElegantThemeTextBox2.TabIndex = 1
+        Me.ElegantThemeTextBox2.Text = "Bitte Pfad eintragen"
+        Me.ElegantThemeTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.ElegantThemeTextBox2.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.ElegantThemeTextBox2.UseSystemPasswordChar = False
+        '
+        'ElegantThemeGroupBox4
+        '
+        Me.ElegantThemeGroupBox4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeGroupBox4.BorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
+        Me.ElegantThemeGroupBox4.Controls.Add(Me.ElegantThemeButton1)
+        Me.ElegantThemeGroupBox4.Controls.Add(Me.ElegantThemeTextBox1)
+        Me.ElegantThemeGroupBox4.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.ElegantThemeGroupBox4.HeaderColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ElegantThemeGroupBox4.Location = New System.Drawing.Point(6, 6)
+        Me.ElegantThemeGroupBox4.MainColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeGroupBox4.Name = "ElegantThemeGroupBox4"
+        Me.ElegantThemeGroupBox4.Size = New System.Drawing.Size(579, 89)
+        Me.ElegantThemeGroupBox4.TabIndex = 5
+        Me.ElegantThemeGroupBox4.Text = "ProfitTrailer path"
+        Me.ElegantThemeGroupBox4.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        '
+        'ElegantThemeButton1
+        '
+        Me.ElegantThemeButton1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeButton1.BackColor = System.Drawing.Color.Transparent
+        Me.ElegantThemeButton1.BaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.ElegantThemeButton1.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantThemeButton1.Location = New System.Drawing.Point(471, 39)
+        Me.ElegantThemeButton1.Name = "ElegantThemeButton1"
+        Me.ElegantThemeButton1.PressedTextColour = System.Drawing.Color.White
+        Me.ElegantThemeButton1.Size = New System.Drawing.Size(99, 27)
+        Me.ElegantThemeButton1.TabIndex = 2
+        Me.ElegantThemeButton1.Text = "Durchsuchen"
+        Me.ElegantThemeButton1.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        '
+        'ElegantThemeTextBox1
+        '
+        Me.ElegantThemeTextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ElegantThemeTextBox1.BackColor = System.Drawing.Color.Transparent
+        Me.ElegantThemeTextBox1.BaseColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ElegantThemeTextBox1.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.ElegantThemeTextBox1.LeftPolygonColour = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(249, Byte), Integer))
+        Me.ElegantThemeTextBox1.LineColour = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
+        Me.ElegantThemeTextBox1.Location = New System.Drawing.Point(11, 39)
+        Me.ElegantThemeTextBox1.MaxLength = 32767
+        Me.ElegantThemeTextBox1.Multiline = False
+        Me.ElegantThemeTextBox1.Name = "ElegantThemeTextBox1"
+        Me.ElegantThemeTextBox1.Picture = PTsetUP.ElegantThemeTextBox.Pictures.None
+        Me.ElegantThemeTextBox1.ReadOnly = False
+        Me.ElegantThemeTextBox1.Size = New System.Drawing.Size(454, 27)
+        Me.ElegantThemeTextBox1.TabIndex = 1
+        Me.ElegantThemeTextBox1.Text = "Bitte Pfad eintragen"
+        Me.ElegantThemeTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.ElegantThemeTextBox1.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.ElegantThemeTextBox1.UseSystemPasswordChar = False
         '
         'Form1
         '
@@ -316,11 +538,16 @@ Partial Class Form1
         Me.Text = "Form1"
         Me.TransparencyKey = System.Drawing.Color.Fuchsia
         Me.ElegantThemeContainer1.ResumeLayout(False)
+        Me.ElegantThemeContainer1.PerformLayout()
         Me.ElegantThemeTabControlVertical1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.ElegantThemeGroupBox2.ResumeLayout(False)
         Me.ElegantThemeGroupBox1.ResumeLayout(False)
         Me.TabPage2.ResumeLayout(False)
+        Me.TabPage5.ResumeLayout(False)
+        Me.ElegantThemeGroupBox6.ResumeLayout(False)
+        Me.ElegantThemeGroupBox5.ResumeLayout(False)
+        Me.ElegantThemeGroupBox4.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -341,4 +568,16 @@ Partial Class Form1
     Friend WithEvents ElegantRadioButton5 As ElegantRadioButton
     Friend WithEvents ElegantRadioButton6 As ElegantRadioButton
     Friend WithEvents ElegantThemeGroupBox3 As ElegantThemeGroupBox
+    Friend WithEvents ElegantThemeGroupBox4 As ElegantThemeGroupBox
+    Friend WithEvents ElegantThemeTextBox1 As ElegantThemeTextBox
+    Friend WithEvents ElegantThemeButton1 As ElegantThemeButton
+    Friend WithEvents ElegantThemeLabel1 As ElegantThemeLabel
+    Friend WithEvents ElegantThemeGroupBox6 As ElegantThemeGroupBox
+    Friend WithEvents ElegantThemeButton3 As ElegantThemeButton
+    Friend WithEvents ElegantThemeTextBox3 As ElegantThemeTextBox
+    Friend WithEvents ElegantThemeGroupBox5 As ElegantThemeGroupBox
+    Friend WithEvents ElegantThemeButton2 As ElegantThemeButton
+    Friend WithEvents ElegantThemeTextBox2 As ElegantThemeTextBox
+    Friend WithEvents ElegantThemeButton5 As ElegantThemeButton
+    Friend WithEvents ElegantThemeButton4 As ElegantThemeButton
 End Class

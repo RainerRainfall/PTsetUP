@@ -299,7 +299,7 @@ Public Class ElegantThemeTextBox
     Inherits Control
 
 #Region "Declarations"
-    Private _BaseColour As Color = Color.FromArgb(255, 255, 255)
+    Private _BaseColour As Color = Color.FromArgb(50, 59, 68)
     Private _BorderColour As Color = Color.FromArgb(163, 190, 146)
     Private _LineColour As Color = Color.FromArgb(221, 221, 221)
     Private _TextColour As Color = Color.FromArgb(163, 163, 163)
