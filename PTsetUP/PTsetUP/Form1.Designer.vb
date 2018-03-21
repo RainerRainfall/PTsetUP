@@ -24,9 +24,9 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.ElegantThemeContainer1 = New PTsetUP.ElegantThemeContainer()
-        Me.ElegantThemeButton5 = New PTsetUP.ElegantThemeButton()
-        Me.ElegantThemeButton4 = New PTsetUP.ElegantThemeButton()
-        Me.ElegantThemeLabel1 = New PTsetUP.ElegantThemeLabel()
+        Me.btnRead = New PTsetUP.ElegantThemeButton()
+        Me.btnWrite = New PTsetUP.ElegantThemeButton()
+        Me.lblStatus = New PTsetUP.ElegantThemeLabel()
         Me.ElegantThemeTabControlVertical1 = New PTsetUP.ElegantThemeTabControlVertical()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.ElegantThemeGroupBox2 = New PTsetUP.ElegantThemeGroupBox()
@@ -74,9 +74,9 @@ Partial Class Form1
         Me.ElegantThemeContainer1.ControlBaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.ElegantThemeContainer1.ControlBoxButtonSplitColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
         Me.ElegantThemeContainer1.ControlBoxColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
-        Me.ElegantThemeContainer1.Controls.Add(Me.ElegantThemeButton5)
-        Me.ElegantThemeContainer1.Controls.Add(Me.ElegantThemeButton4)
-        Me.ElegantThemeContainer1.Controls.Add(Me.ElegantThemeLabel1)
+        Me.ElegantThemeContainer1.Controls.Add(Me.btnRead)
+        Me.ElegantThemeContainer1.Controls.Add(Me.btnWrite)
+        Me.ElegantThemeContainer1.Controls.Add(Me.lblStatus)
         Me.ElegantThemeContainer1.Controls.Add(Me.ElegantThemeTabControlVertical1)
         Me.ElegantThemeContainer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ElegantThemeContainer1.Font = New System.Drawing.Font("Calibri", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -90,46 +90,46 @@ Partial Class Form1
         Me.ElegantThemeContainer1.TopStripBorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
         Me.ElegantThemeContainer1.TopStripColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
         '
-        'ElegantThemeButton5
+        'btnRead
         '
-        Me.ElegantThemeButton5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ElegantThemeButton5.BackColor = System.Drawing.Color.Transparent
-        Me.ElegantThemeButton5.BaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
-        Me.ElegantThemeButton5.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.ElegantThemeButton5.Location = New System.Drawing.Point(493, 374)
-        Me.ElegantThemeButton5.Name = "ElegantThemeButton5"
-        Me.ElegantThemeButton5.PressedTextColour = System.Drawing.Color.White
-        Me.ElegantThemeButton5.Size = New System.Drawing.Size(99, 27)
-        Me.ElegantThemeButton5.TabIndex = 9
-        Me.ElegantThemeButton5.Text = "Read Settings"
-        Me.ElegantThemeButton5.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.btnRead.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnRead.BackColor = System.Drawing.Color.Transparent
+        Me.btnRead.BaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.btnRead.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.btnRead.Location = New System.Drawing.Point(493, 374)
+        Me.btnRead.Name = "btnRead"
+        Me.btnRead.PressedTextColour = System.Drawing.Color.White
+        Me.btnRead.Size = New System.Drawing.Size(99, 27)
+        Me.btnRead.TabIndex = 9
+        Me.btnRead.Text = "Read Settings"
+        Me.btnRead.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         '
-        'ElegantThemeButton4
+        'btnWrite
         '
-        Me.ElegantThemeButton4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ElegantThemeButton4.BackColor = System.Drawing.Color.Transparent
-        Me.ElegantThemeButton4.BaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
-        Me.ElegantThemeButton4.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.ElegantThemeButton4.Location = New System.Drawing.Point(598, 374)
-        Me.ElegantThemeButton4.Name = "ElegantThemeButton4"
-        Me.ElegantThemeButton4.PressedTextColour = System.Drawing.Color.White
-        Me.ElegantThemeButton4.Size = New System.Drawing.Size(99, 27)
-        Me.ElegantThemeButton4.TabIndex = 8
-        Me.ElegantThemeButton4.Text = "Write Settings"
-        Me.ElegantThemeButton4.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.btnWrite.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnWrite.BackColor = System.Drawing.Color.Transparent
+        Me.btnWrite.BaseColour = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.btnWrite.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.btnWrite.Location = New System.Drawing.Point(598, 374)
+        Me.btnWrite.Name = "btnWrite"
+        Me.btnWrite.PressedTextColour = System.Drawing.Color.White
+        Me.btnWrite.Size = New System.Drawing.Size(99, 27)
+        Me.btnWrite.TabIndex = 8
+        Me.btnWrite.Text = "Write Settings"
+        Me.btnWrite.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         '
-        'ElegantThemeLabel1
+        'lblStatus
         '
-        Me.ElegantThemeLabel1.AutoSize = True
-        Me.ElegantThemeLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.ElegantThemeLabel1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.ElegantThemeLabel1.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
-        Me.ElegantThemeLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
-        Me.ElegantThemeLabel1.Location = New System.Drawing.Point(9, 381)
-        Me.ElegantThemeLabel1.Name = "ElegantThemeLabel1"
-        Me.ElegantThemeLabel1.Size = New System.Drawing.Size(90, 15)
-        Me.ElegantThemeLabel1.TabIndex = 1
-        Me.ElegantThemeLabel1.Text = "Path not found!"
+        Me.lblStatus.AutoSize = True
+        Me.lblStatus.BackColor = System.Drawing.Color.Transparent
+        Me.lblStatus.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.lblStatus.FontColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.lblStatus.ForeColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.lblStatus.Location = New System.Drawing.Point(9, 381)
+        Me.lblStatus.Name = "lblStatus"
+        Me.lblStatus.Size = New System.Drawing.Size(90, 15)
+        Me.lblStatus.TabIndex = 1
+        Me.lblStatus.Text = "Path not found!"
         '
         'ElegantThemeTabControlVertical1
         '
@@ -571,13 +571,13 @@ Partial Class Form1
     Friend WithEvents ElegantThemeGroupBox4 As ElegantThemeGroupBox
     Friend WithEvents ElegantThemeTextBox1 As ElegantThemeTextBox
     Friend WithEvents ElegantThemeButton1 As ElegantThemeButton
-    Friend WithEvents ElegantThemeLabel1 As ElegantThemeLabel
+    Friend WithEvents lblStatus As ElegantThemeLabel
     Friend WithEvents ElegantThemeGroupBox6 As ElegantThemeGroupBox
     Friend WithEvents ElegantThemeButton3 As ElegantThemeButton
     Friend WithEvents ElegantThemeTextBox3 As ElegantThemeTextBox
     Friend WithEvents ElegantThemeGroupBox5 As ElegantThemeGroupBox
     Friend WithEvents ElegantThemeButton2 As ElegantThemeButton
     Friend WithEvents ElegantThemeTextBox2 As ElegantThemeTextBox
-    Friend WithEvents ElegantThemeButton5 As ElegantThemeButton
-    Friend WithEvents ElegantThemeButton4 As ElegantThemeButton
+    Friend WithEvents btnRead As ElegantThemeButton
+    Friend WithEvents btnWrite As ElegantThemeButton
 End Class
