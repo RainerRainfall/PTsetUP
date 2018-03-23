@@ -44,13 +44,13 @@ Partial Class Form1
         Me.TabPage5 = New System.Windows.Forms.TabPage()
         Me.ElegantThemeGroupBox6 = New PTsetUP.ElegantThemeGroupBox()
         Me.ElegantThemeButton3 = New PTsetUP.ElegantThemeButton()
-        Me.ElegantThemeTextBox3 = New PTsetUP.ElegantThemeTextBox()
+        Me.tbLogtotxt = New PTsetUP.ElegantThemeTextBox()
         Me.ElegantThemeGroupBox5 = New PTsetUP.ElegantThemeGroupBox()
         Me.ElegantThemeButton2 = New PTsetUP.ElegantThemeButton()
-        Me.ElegantThemeTextBox2 = New PTsetUP.ElegantThemeTextBox()
+        Me.tbPTbackup = New PTsetUP.ElegantThemeTextBox()
         Me.ElegantThemeGroupBox4 = New PTsetUP.ElegantThemeGroupBox()
         Me.ElegantThemeButton1 = New PTsetUP.ElegantThemeButton()
-        Me.ElegantThemeTextBox1 = New PTsetUP.ElegantThemeTextBox()
+        Me.tbPTPath = New PTsetUP.ElegantThemeTextBox()
         Me.ElegantThemeContainer1.SuspendLayout()
         Me.ElegantThemeTabControlVertical1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -101,7 +101,7 @@ Partial Class Form1
         Me.btnRead.PressedTextColour = System.Drawing.Color.White
         Me.btnRead.Size = New System.Drawing.Size(99, 27)
         Me.btnRead.TabIndex = 9
-        Me.btnRead.Text = "Read Settings"
+        Me.btnRead.Text = "Read PT Settings"
         Me.btnRead.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         '
         'btnWrite
@@ -115,7 +115,7 @@ Partial Class Form1
         Me.btnWrite.PressedTextColour = System.Drawing.Color.White
         Me.btnWrite.Size = New System.Drawing.Size(99, 27)
         Me.btnWrite.TabIndex = 8
-        Me.btnWrite.Text = "Write Settings"
+        Me.btnWrite.Text = "Write PT Settings"
         Me.btnWrite.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         '
         'lblStatus
@@ -371,7 +371,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ElegantThemeGroupBox6.BorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
         Me.ElegantThemeGroupBox6.Controls.Add(Me.ElegantThemeButton3)
-        Me.ElegantThemeGroupBox6.Controls.Add(Me.ElegantThemeTextBox3)
+        Me.ElegantThemeGroupBox6.Controls.Add(Me.tbLogtotxt)
         Me.ElegantThemeGroupBox6.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
         Me.ElegantThemeGroupBox6.HeaderColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.ElegantThemeGroupBox6.Location = New System.Drawing.Point(6, 227)
@@ -396,27 +396,27 @@ Partial Class Form1
         Me.ElegantThemeButton3.Text = "Durchsuchen"
         Me.ElegantThemeButton3.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         '
-        'ElegantThemeTextBox3
+        'tbLogtotxt
         '
-        Me.ElegantThemeTextBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.tbLogtotxt.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ElegantThemeTextBox3.BackColor = System.Drawing.Color.Transparent
-        Me.ElegantThemeTextBox3.BaseColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.ElegantThemeTextBox3.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.ElegantThemeTextBox3.LeftPolygonColour = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(249, Byte), Integer))
-        Me.ElegantThemeTextBox3.LineColour = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
-        Me.ElegantThemeTextBox3.Location = New System.Drawing.Point(11, 39)
-        Me.ElegantThemeTextBox3.MaxLength = 32767
-        Me.ElegantThemeTextBox3.Multiline = False
-        Me.ElegantThemeTextBox3.Name = "ElegantThemeTextBox3"
-        Me.ElegantThemeTextBox3.Picture = PTsetUP.ElegantThemeTextBox.Pictures.None
-        Me.ElegantThemeTextBox3.ReadOnly = False
-        Me.ElegantThemeTextBox3.Size = New System.Drawing.Size(454, 27)
-        Me.ElegantThemeTextBox3.TabIndex = 1
-        Me.ElegantThemeTextBox3.Text = "Bitte Pfad eintragen"
-        Me.ElegantThemeTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.ElegantThemeTextBox3.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
-        Me.ElegantThemeTextBox3.UseSystemPasswordChar = False
+        Me.tbLogtotxt.BackColor = System.Drawing.Color.Transparent
+        Me.tbLogtotxt.BaseColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.tbLogtotxt.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.tbLogtotxt.LeftPolygonColour = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(249, Byte), Integer))
+        Me.tbLogtotxt.LineColour = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
+        Me.tbLogtotxt.Location = New System.Drawing.Point(11, 39)
+        Me.tbLogtotxt.MaxLength = 32767
+        Me.tbLogtotxt.Multiline = False
+        Me.tbLogtotxt.Name = "tbLogtotxt"
+        Me.tbLogtotxt.Picture = PTsetUP.ElegantThemeTextBox.Pictures.None
+        Me.tbLogtotxt.ReadOnly = False
+        Me.tbLogtotxt.Size = New System.Drawing.Size(454, 27)
+        Me.tbLogtotxt.TabIndex = 1
+        Me.tbLogtotxt.Text = "Bitte Pfad eintragen"
+        Me.tbLogtotxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.tbLogtotxt.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.tbLogtotxt.UseSystemPasswordChar = False
         '
         'ElegantThemeGroupBox5
         '
@@ -424,7 +424,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ElegantThemeGroupBox5.BorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
         Me.ElegantThemeGroupBox5.Controls.Add(Me.ElegantThemeButton2)
-        Me.ElegantThemeGroupBox5.Controls.Add(Me.ElegantThemeTextBox2)
+        Me.ElegantThemeGroupBox5.Controls.Add(Me.tbPTbackup)
         Me.ElegantThemeGroupBox5.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
         Me.ElegantThemeGroupBox5.HeaderColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.ElegantThemeGroupBox5.Location = New System.Drawing.Point(6, 116)
@@ -449,27 +449,27 @@ Partial Class Form1
         Me.ElegantThemeButton2.Text = "Durchsuchen"
         Me.ElegantThemeButton2.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         '
-        'ElegantThemeTextBox2
+        'tbPTbackup
         '
-        Me.ElegantThemeTextBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.tbPTbackup.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ElegantThemeTextBox2.BackColor = System.Drawing.Color.Transparent
-        Me.ElegantThemeTextBox2.BaseColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.ElegantThemeTextBox2.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.ElegantThemeTextBox2.LeftPolygonColour = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(249, Byte), Integer))
-        Me.ElegantThemeTextBox2.LineColour = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
-        Me.ElegantThemeTextBox2.Location = New System.Drawing.Point(11, 39)
-        Me.ElegantThemeTextBox2.MaxLength = 32767
-        Me.ElegantThemeTextBox2.Multiline = False
-        Me.ElegantThemeTextBox2.Name = "ElegantThemeTextBox2"
-        Me.ElegantThemeTextBox2.Picture = PTsetUP.ElegantThemeTextBox.Pictures.None
-        Me.ElegantThemeTextBox2.ReadOnly = False
-        Me.ElegantThemeTextBox2.Size = New System.Drawing.Size(454, 27)
-        Me.ElegantThemeTextBox2.TabIndex = 1
-        Me.ElegantThemeTextBox2.Text = "Bitte Pfad eintragen"
-        Me.ElegantThemeTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.ElegantThemeTextBox2.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
-        Me.ElegantThemeTextBox2.UseSystemPasswordChar = False
+        Me.tbPTbackup.BackColor = System.Drawing.Color.Transparent
+        Me.tbPTbackup.BaseColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.tbPTbackup.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.tbPTbackup.LeftPolygonColour = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(249, Byte), Integer))
+        Me.tbPTbackup.LineColour = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
+        Me.tbPTbackup.Location = New System.Drawing.Point(11, 39)
+        Me.tbPTbackup.MaxLength = 32767
+        Me.tbPTbackup.Multiline = False
+        Me.tbPTbackup.Name = "tbPTbackup"
+        Me.tbPTbackup.Picture = PTsetUP.ElegantThemeTextBox.Pictures.None
+        Me.tbPTbackup.ReadOnly = False
+        Me.tbPTbackup.Size = New System.Drawing.Size(454, 27)
+        Me.tbPTbackup.TabIndex = 1
+        Me.tbPTbackup.Text = "Bitte Pfad eintragen"
+        Me.tbPTbackup.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.tbPTbackup.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.tbPTbackup.UseSystemPasswordChar = False
         '
         'ElegantThemeGroupBox4
         '
@@ -477,7 +477,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ElegantThemeGroupBox4.BorderColour = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(218, Byte), Integer))
         Me.ElegantThemeGroupBox4.Controls.Add(Me.ElegantThemeButton1)
-        Me.ElegantThemeGroupBox4.Controls.Add(Me.ElegantThemeTextBox1)
+        Me.ElegantThemeGroupBox4.Controls.Add(Me.tbPTPath)
         Me.ElegantThemeGroupBox4.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
         Me.ElegantThemeGroupBox4.HeaderColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.ElegantThemeGroupBox4.Location = New System.Drawing.Point(6, 6)
@@ -502,27 +502,27 @@ Partial Class Form1
         Me.ElegantThemeButton1.Text = "Durchsuchen"
         Me.ElegantThemeButton1.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
         '
-        'ElegantThemeTextBox1
+        'tbPTPath
         '
-        Me.ElegantThemeTextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.tbPTPath.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ElegantThemeTextBox1.BackColor = System.Drawing.Color.Transparent
-        Me.ElegantThemeTextBox1.BaseColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.ElegantThemeTextBox1.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.ElegantThemeTextBox1.LeftPolygonColour = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(249, Byte), Integer))
-        Me.ElegantThemeTextBox1.LineColour = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
-        Me.ElegantThemeTextBox1.Location = New System.Drawing.Point(11, 39)
-        Me.ElegantThemeTextBox1.MaxLength = 32767
-        Me.ElegantThemeTextBox1.Multiline = False
-        Me.ElegantThemeTextBox1.Name = "ElegantThemeTextBox1"
-        Me.ElegantThemeTextBox1.Picture = PTsetUP.ElegantThemeTextBox.Pictures.None
-        Me.ElegantThemeTextBox1.ReadOnly = False
-        Me.ElegantThemeTextBox1.Size = New System.Drawing.Size(454, 27)
-        Me.ElegantThemeTextBox1.TabIndex = 1
-        Me.ElegantThemeTextBox1.Text = "Bitte Pfad eintragen"
-        Me.ElegantThemeTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.ElegantThemeTextBox1.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
-        Me.ElegantThemeTextBox1.UseSystemPasswordChar = False
+        Me.tbPTPath.BackColor = System.Drawing.Color.Transparent
+        Me.tbPTPath.BaseColour = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.tbPTPath.BorderColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.tbPTPath.LeftPolygonColour = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(249, Byte), Integer))
+        Me.tbPTPath.LineColour = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
+        Me.tbPTPath.Location = New System.Drawing.Point(11, 39)
+        Me.tbPTPath.MaxLength = 32767
+        Me.tbPTPath.Multiline = False
+        Me.tbPTPath.Name = "tbPTPath"
+        Me.tbPTPath.Picture = PTsetUP.ElegantThemeTextBox.Pictures.None
+        Me.tbPTPath.ReadOnly = False
+        Me.tbPTPath.Size = New System.Drawing.Size(454, 27)
+        Me.tbPTPath.TabIndex = 1
+        Me.tbPTPath.Text = "Bitte Pfad eintragen"
+        Me.tbPTPath.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.tbPTPath.TextColour = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.tbPTPath.UseSystemPasswordChar = False
         '
         'Form1
         '
@@ -569,15 +569,15 @@ Partial Class Form1
     Friend WithEvents ElegantRadioButton6 As ElegantRadioButton
     Friend WithEvents ElegantThemeGroupBox3 As ElegantThemeGroupBox
     Friend WithEvents ElegantThemeGroupBox4 As ElegantThemeGroupBox
-    Friend WithEvents ElegantThemeTextBox1 As ElegantThemeTextBox
+    Friend WithEvents tbPTPath As ElegantThemeTextBox
     Friend WithEvents ElegantThemeButton1 As ElegantThemeButton
     Friend WithEvents lblStatus As ElegantThemeLabel
     Friend WithEvents ElegantThemeGroupBox6 As ElegantThemeGroupBox
     Friend WithEvents ElegantThemeButton3 As ElegantThemeButton
-    Friend WithEvents ElegantThemeTextBox3 As ElegantThemeTextBox
+    Friend WithEvents tbLogtotxt As ElegantThemeTextBox
     Friend WithEvents ElegantThemeGroupBox5 As ElegantThemeGroupBox
     Friend WithEvents ElegantThemeButton2 As ElegantThemeButton
-    Friend WithEvents ElegantThemeTextBox2 As ElegantThemeTextBox
+    Friend WithEvents tbPTbackup As ElegantThemeTextBox
     Friend WithEvents btnRead As ElegantThemeButton
     Friend WithEvents btnWrite As ElegantThemeButton
 End Class

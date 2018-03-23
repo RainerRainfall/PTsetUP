@@ -65,6 +65,30 @@ Namespace My
                 Me("PTpath") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("none")>  _
+        Public Property PTbackup() As String
+            Get
+                Return CType(Me("PTbackup"),String)
+            End Get
+            Set
+                Me("PTbackup") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("none")>  _
+        Public Property LogToTXT() As String
+            Get
+                Return CType(Me("LogToTXT"),String)
+            End Get
+            Set
+                Me("LogToTXT") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
