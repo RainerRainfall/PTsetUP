@@ -2466,7 +2466,7 @@ Public Class ElegantThemeTabControlVertical
                     .FillRectangle(New SolidBrush(_BorderColour), GetTabRect(i).Location.X - 2, GetTabRect(i).Location.Y + 1, GetTabRect(i).Location.X + 2, GetTabRect(i).Size.Height - 10)
                     .FillRectangle(New SolidBrush(_BorderColour), GetTabRect(i).Location.X + 2, GetTabRect(i).Location.Y + 6, GetTabRect(i).Location.X + 2, GetTabRect(i).Size.Height - 19)
                     .SmoothingMode = SmoothingMode.AntiAlias
-                    .DrawString(TabPages(i).Text, New Font("Microsoft Sans Serif", 9, FontStyle.Bold), New SolidBrush(_TextColour), tabRect1, New StringFormat With {.LineAlignment = StringAlignment.Center, .Alignment = StringAlignment.Center})
+                    .DrawString(TabPages(i).Text, New Font("Microsoft Sans Serif", 9, FontStyle.Regular), New SolidBrush(_TextColour), tabRect1, New StringFormat With {.LineAlignment = StringAlignment.Center, .Alignment = StringAlignment.Center})
                 Else
                     If HoverIndex = i Then
                         Dim x21 As Rectangle = New Rectangle(New Point(GetTabRect(i).Location.X - 2, GetTabRect(i).Location.Y + 2), New Size(GetTabRect(i).Width, GetTabRect(i).Height - 11))
