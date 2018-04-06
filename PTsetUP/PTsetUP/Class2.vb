@@ -200,8 +200,8 @@ Class FormSkin : Inherits ContainerControl
 
 #Region " Dark Colors"
 
-    Private _HeaderColor As Color = Color.FromArgb(50, 50, 50)
-    Private _BaseColor As Color = Color.FromArgb(50, 50, 50)
+    Private _HeaderColor As Color = Color.FromArgb(54, 64, 74)
+    Private _BaseColor As Color = Color.FromArgb(54, 64, 74)
     Private _BorderColor As Color = Color.FromArgb(0, 170, 220)
     Private TextColor As Color = Color.FromArgb(212, 198, 209)
 
@@ -845,9 +845,9 @@ End Class
 
 #Region " Colors"
 
-    Private _BaseColor As Color = Color.FromArgb(60, 60, 60)
-    Private _BorderColor As Color = Color.FromArgb(0, 170, 220)
-    Private _TextColor As Color = Color.FromArgb(243, 243, 243)
+    Private _BaseColor As Color = Color.FromArgb(107, 107, 107)
+    Private _BorderColor As Color = Color.FromArgb(255, 153, 34)
+    Private _TextColor As Color = Color.FromArgb(163, 163, 163)
 
 #End Region
 
@@ -857,7 +857,7 @@ End Class
         DoubleBuffered = True
         Cursor = Cursors.Hand
         Size = New Size(100, 22)
-        BackColor = Color.FromArgb(50, 50, 50)
+        BackColor = Color.FromArgb(54, 64, 74)
         Font = New Font("Segoe UI", 10)
     End Sub
     Protected Overrides Sub OnPaint(e As PaintEventArgs)
@@ -1048,7 +1048,7 @@ End Class
 #Region " Colors"
 
     Private _BaseColor As Color = Color.FromArgb(60, 60, 60)
-    Private _BorderColor As Color = Color.FromArgb(0, 170, 220)
+    Private _BorderColor As Color = Color.FromArgb(255, 153, 34)
     Private _TextColor As Color = Color.FromArgb(243, 243, 243)
 
 #End Region

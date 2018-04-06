@@ -29,7 +29,7 @@ Partial Class Form1
         Me.lblStatus = New PTsetUP.ElegantThemeLabel()
         Me.ElegantThemeTabControlVertical1 = New PTsetUP.ElegantThemeTabControlVertical()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.FlatComboBox1 = New PTsetUP.FlatComboBox()
+        Me.FlatRadioButton1 = New PTsetUP.FlatRadioButton()
         Me.FlatToggle1 = New PTsetUP.FlatToggle()
         Me.ElegantThemeCheckBox1 = New PTsetUP.ElegantThemeCheckBox()
         Me.ElegantThemeGroupBox2 = New PTsetUP.ElegantThemeGroupBox()
@@ -155,7 +155,7 @@ Partial Class Form1
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
-        Me.TabPage1.Controls.Add(Me.FlatComboBox1)
+        Me.TabPage1.Controls.Add(Me.FlatRadioButton1)
         Me.TabPage1.Controls.Add(Me.FlatToggle1)
         Me.TabPage1.Controls.Add(Me.ElegantThemeCheckBox1)
         Me.TabPage1.Controls.Add(Me.ElegantThemeGroupBox2)
@@ -168,21 +168,20 @@ Partial Class Form1
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Global"
         '
-        'FlatComboBox1
+        'FlatRadioButton1
         '
-        Me.FlatComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.FlatComboBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.FlatComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.FlatComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.FlatComboBox1.Font = New System.Drawing.Font("Segoe UI", 8.0!)
-        Me.FlatComboBox1.ForeColor = System.Drawing.Color.White
-        Me.FlatComboBox1.FormattingEnabled = True
-        Me.FlatComboBox1.HoverColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(220, Byte), Integer))
-        Me.FlatComboBox1.ItemHeight = 18
-        Me.FlatComboBox1.Location = New System.Drawing.Point(110, 230)
-        Me.FlatComboBox1.Name = "FlatComboBox1"
-        Me.FlatComboBox1.Size = New System.Drawing.Size(121, 24)
-        Me.FlatComboBox1.TabIndex = 6
+        Me.FlatRadioButton1.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(74, Byte), Integer))
+        Me.FlatRadioButton1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(107, Byte), Integer), CType(CType(107, Byte), Integer), CType(CType(107, Byte), Integer))
+        Me.FlatRadioButton1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.FlatRadioButton1.Checked = False
+        Me.FlatRadioButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.FlatRadioButton1.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.FlatRadioButton1.Location = New System.Drawing.Point(144, 238)
+        Me.FlatRadioButton1.Name = "FlatRadioButton1"
+        Me.FlatRadioButton1.Options = PTsetUP.FlatRadioButton._Options.Style1
+        Me.FlatRadioButton1.Size = New System.Drawing.Size(100, 22)
+        Me.FlatRadioButton1.TabIndex = 6
+        Me.FlatRadioButton1.Text = "FlatRadioButton1"
         '
         'FlatToggle1
         '
@@ -512,5 +511,5 @@ Partial Class Form1
     Friend WithEvents btnWrite As ElegantThemeButton
     Friend WithEvents ElegantThemeCheckBox1 As ElegantThemeCheckBox
     Friend WithEvents FlatToggle1 As FlatToggle
-    Friend WithEvents FlatComboBox1 As FlatComboBox
+    Friend WithEvents FlatRadioButton1 As FlatRadioButton
 End Class
