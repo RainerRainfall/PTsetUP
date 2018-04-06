@@ -599,10 +599,10 @@ End Class
 
 #Region " Colors"
 
-    Private BaseColor As Color = Color.FromArgb(0, 170, 220)
+    Private BaseColor As Color = Color.FromArgb(255, 153, 34)
     Private BaseColorRed As Color = Color.FromArgb(0, 170, 220)
-    Private BGColor As Color = Color.FromArgb(44, 54, 64)
-    Private ToggleColor As Color = Color.FromArgb(255, 153, 34)
+    Private BGColor As Color = Color.FromArgb(0, 170, 220)
+    Private ToggleColor As Color = Color.FromArgb(107, 107, 107)
     Private TextColor As Color = Color.FromArgb(243, 243, 243)
 
 #End Region
